@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'rails', '= 5.2.6.2'
+gem 'rails', '= 7.0.8.7'
 gem 'mysql2'
 gem 'puma'
 gem 'turbolinks', '~> 5'
@@ -31,7 +31,7 @@ gem 'resolv', '~> 0.2.1'
 gem 'dotenv-rails'
 
 group :development, :assets do
-  gem 'sass-rails', '~> 5.0'
+  gem 'sass-rails', '~> 6.0', '>= 6.0.0'
   gem 'uglifier', '>= 1.3.0'
   gem 'coffee-rails', '~> 4.2'
   gem 'jquery-rails'
