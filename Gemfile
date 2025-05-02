@@ -44,7 +44,7 @@ end
 group :development do
   gem 'annotate'
   gem 'rspec'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem "factory_bot_rails", "~> 4.0"
   gem "database_cleaner"
 end
