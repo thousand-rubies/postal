@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-gem 'rails', '= 5.2.6.2'
+gem 'rails', '= 7.1.5.2'
 gem 'mysql2'
 gem 'puma'
 gem 'turbolinks', '~> 5'
 gem 'haml'
 gem 'nifty-utils'
-gem 'nilify_blanks'
-gem 'kaminari'
+gem 'nilify_blanks', '>= 1.4.0'
+gem 'kaminari', '>= 1.2.2'
 gem 'bcrypt'
 gem 'foreman'
 gem 'hashie'
@@ -42,7 +42,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'annotate'
+  gem 'annotate', '>= 3.2.0'
   gem 'rspec'
   gem 'rspec-rails'
   gem "factory_bot_rails", "~> 4.0"
